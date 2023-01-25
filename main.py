@@ -6,7 +6,9 @@ if (operation == '+'):
     print("Результат:" + str(a + b))
 elif (operation == '-'):
     print("Результат: " + str(a - b))
-elif (operation == '⁕'):
+elif (operation == '*'):
     print("Результат: " + str(a * b))
 elif (operation == '/'):
     print("Результат: " + str(a / b))
+else:
+    print("ошибка")
